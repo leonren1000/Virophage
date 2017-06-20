@@ -1,17 +1,16 @@
-APCS README
+# Virophage
 
-HEADER - ìVirophageî
-By Max Ovsiankin & Leon Ren - Period 1, 5/7/14
+By Max Ovsiankin & Leon Ren, 5/7/14
 
 
 1. Description
    1. What does it do?
       1. Real-Time-Strategy Game
       2. NON-INFINITE Hexagonal grid
-         1. Every cell can be ëoccupiedí by only one player
+         1. Every cell can be ‚Äòoccupied‚Äô by only one player
          2. Each cell has an energy level -- this is changed by the player, and reset when a cell is taken
          3. Energy can be transferred between cells
-         4. Goal is to eliminate all of your opponentís occupied cells
+         4. Goal is to eliminate all of your opponent‚Äôs occupied cells
          5. At the start of the game, the map is randomly generated with several dead cells, these are colored black
       3. Player-Vs-Player combat
          1. Each player starts with occupying some number of cells
@@ -19,20 +18,18 @@ By Max Ovsiankin & Leon Ren - Period 1, 5/7/14
          3. To take an empty cell, the player must move at least one energy to that cell
          4. >= 2 players
          5. Can choose to be multiplayer or single AI, or AI vs AI
-   1. What problems does it solve?
-      1. Our program solves the problem of boredom or lack of entertainment.
    1. Rules?
       1. There is a hexagonal grid with 2 different players.
-      2. Each player will control an army of ìvirophagesî, or viruses that can infect other viruses.
+      2. Each player will control an army of ‚Äúvirophages‚Äù, or viruses that can infect other viruses.
       3. Each player will start with 7 viruses on opposite corners (northwest and southeast) of the hexagonal flat-topped grid.
-      4. The objective is to eliminate all viruses of the opposing player. The detailed mechanisms of movement and ìinfectionî are described in sections 3 - instructions.
+      4. The objective is to eliminate all viruses of the opposing player. The detailed mechanisms of movement and ‚Äúinfection‚Äù are described in sections 3 - instructions.
    1. Target market?
       1. Young or middle aged users looking for some entertainment.
    1. Primary features?
-      1. GUI, strategy & gameplay in real time.
+      1. GUI, AI, In-Game Chat, Multiplayer over Networking
 2. Instructions
    1. There is a flat topped hexagonal grid with 2 different players.
-   2. Each player will control an army of ìvirophagesî, or viruses that can infect other viruses.
+   2. Each player will control an army of ‚Äúvirophages‚Äù, or viruses that can infect other viruses.
    3. Each player will start of with 3 viruses on opposite (west & east) sides of the grid.
    4. Each virus occupies a cell. Every virus has an amount of energy used to move and kill other viruses.
    5. Each player starts with occupying some number of cells
@@ -43,13 +40,13 @@ By Max Ovsiankin & Leon Ren - Period 1, 5/7/14
    10. SHIFT + LMB to place green virus
 3. Features List
    1. Must-Haves
-      1. ëStupidí AI
+      1. ‚ÄòStupid‚Äô AI
       2. Occupation of cells
       3. GUI
       4. Energy
       5. Dead cells
    2. Want-To-Haves
-      1. ëSmartí AI
+      1. ‚ÄòSmart‚Äô AI
       2. Buildup of Energy
       3. Ability upgrades
       4. Picture on Background
